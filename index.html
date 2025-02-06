@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BikeOpedia</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            BikeOpedia
+        </div>
+        <div class="fullImageView">
+            <div class="previous">
+                <i class="fa-solid fa-angles-left icon" onclick="viewPreviousImage()"></i>
+            </div>
+            <div class="fullImageDiv">
+                <img alt="" class="fullImage" alt="bike Image">
+            </div>
+            <div class="next">
+                <i class="fa-solid fa-xmark icon" onclick="closePreview()"></i>
+                <i class="fa-solid fa-angles-right icon" onclick="viewNextImage()"></i>
+                <a href="" class="downloadImage" onclick="download()">
+                    <button class="Btn downloadBtn" onclick="download()">
+                        <svg class="svgIcon" viewBox="0 0 384 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                            </path>
+                        </svg>
+                        <span class="icon2"></span>
+                    </button>
+                </a>
+
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="column-1 column">
+                <div class="photo">
+                    <img src="Images/bikeImage1.jpg" alt="bike Image" onclick="CurrImage(0)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage2.jpg" alt="bike Image" onclick="CurrImage(1)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage3.jpg" alt="bike Image"  onclick="CurrImage(2)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage4.jpg" alt="bike Image" onclick="CurrImage(3)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage5.jpg" alt="bike Image" onclick="CurrImage(4)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage6.jpg" alt="bike Image" onclick="CurrImage(5)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage20.jpg" alt="bike Image" onclick="CurrImage(19)">
+                </div>
+
+            </div>
+
+            <div class="column-2 column">
+                <div class="photo">
+                    <img src="Images/bikeImage8.jpg" alt="bike Image" onclick="CurrImage(7)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage9.jpg" alt="bike Image" onclick="CurrImage(8)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage10.jpg" alt="bike Image" onclick="CurrImage(9)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage11.jpg" alt="bike Image" onclick="CurrImage(10)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage12.jpg" alt="bike Image" onclick="CurrImage(11)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage13.jpg" alt="bike Image" onclick="CurrImage(12)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage14.jpg" alt="bike Image" onclick="CurrImage(13)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage19.jpg" alt="bike Image" onclick="CurrImage(18)">
+                </div>
+            </div>
+
+            <div class="column-3 column">
+                <div class="photo">
+                    <img src="Images/bikeImage7.jpg" alt="bike Image" onclick="CurrImage(6)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage15.jpg" alt="bike Image" onclick="CurrImage(14)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage16.jpg" alt="bike Image" onclick="CurrImage(15)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage17.jpg" alt="bike Image" onclick="CurrImage(16)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage18.jpg" alt="bike Image" onclick="CurrImage(17)">
+                </div>
+                <div class="photo">
+                    <img src="Images/bikeImage21.jpg" alt="bike Image" onclick="CurrImage(20)">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerIntro">
+                <h2>BikeOpedia</h2>
+                <p>Where Speed Meets Quality </p>
+                <p>View the most beautiful Bikes</p>
+            </div>
+
+            <div class="followContainer">
+                <h1>Follow Me On</h1>
+                <div class="followBox">
+                    <a href="https://www.instagram.com/pritam_mandal_77/profilecard/?igsh=MWE5cXF5ZGpxam84eA==" target="_blank">
+                        <i class="fa-brands fa-instagram followIcons"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pritam-mandal-871510281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank">
+                        <i class="fa-brands fa-linkedin followIcons"></i>
+                    </a>
+                    <a href="https://github.com/Pritammandal77" target="_blank">
+                        <i class="fa-brands fa-github followIcons"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            &copy; 2025 BikeOpedia. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
