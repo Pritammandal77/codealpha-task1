@@ -1,23 +1,25 @@
-Image Gallery App
+# Image Gallery App
 
-📌 Overview
+## 📌 Overview
 
-This is a simple and elegant Image Gallery App built using HTML, CSS, and JavaScript. The app displays a collection of images in a Pinterest-style layout, allowing users to view images in full-screen mode and download them with ease.
+This is a simple and elegant **Image Gallery App** built using **HTML, CSS, and JavaScript**. The app displays a collection of images in a **Pinterest-style layout**, allowing users to view images in full-screen mode and download them with ease.
 
-✨ Features
+## ✨ Features
 
-🖼️ Pinterest-style layout for a clean and aesthetic display.
+- 🖼️ **Pinterest-style layout** for a clean and aesthetic display.
+- 🔍 **Full-screen view** to see images in detail.
+- ⬇️ **Download option** to save images locally.
+- 🎨 **Responsive design** for seamless viewing on all devices.
 
-🔍 Full-screen view to see images in detail.
+## 🛠️ Technologies Used
 
-⬇️ Download option to save images locally.
+- **HTML** - Structuring the web page.
+- **CSS** - Styling and layout.
+- **JavaScript** - Adding interactivity.
 
-🎨 Responsive design for seamless viewing on all devices.
+## 🤝 Contribution
 
-🛠️ Technologies Used
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-HTML - Structuring the web page.
+⭐ Don't forget to **star** this repository if you found it useful! ⭐
 
-CSS - Styling and layout.
-
-JavaScript - Adding interactivity.
